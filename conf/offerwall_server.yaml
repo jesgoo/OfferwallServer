@@ -1,0 +1,13 @@
+redis:
+    host: 127.0.0.1
+    port: 6379
+    db: 1
+public_server:
+    host: 0.0.0.0
+    port: 7011
+private_server:
+    host: 0.0.0.0
+    port: 7012
+logging:
+    path: logs/access.log.%Y%m%d%H
+    interval: 3600
